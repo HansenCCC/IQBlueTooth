@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300975341DBA05C400328AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 300975331DBA05C400328AB1 /* main.m */; };
+		300975371DBA05C400328AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 300975361DBA05C400328AB1 /* AppDelegate.m */; };
+		3009753A1DBA05C400328AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300975391DBA05C400328AB1 /* ViewController.m */; };
+		3009753D1DBA05C400328AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3009753B1DBA05C400328AB1 /* Main.storyboard */; };
+		300975401DBA05C400328AB1 /* IQBlueTooth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3009753E1DBA05C400328AB1 /* IQBlueTooth.xcdatamodeld */; };
+		300975421DBA05C400328AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300975411DBA05C400328AB1 /* Assets.xcassets */; };
+		300975451DBA05C400328AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300975431DBA05C400328AB1 /* LaunchScreen.storyboard */; };
+		3009754F1DBA06FE00328AB1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009754E1DBA06FE00328AB1 /* CoreBluetooth.framework */; };
+		304627181DDAB2F40025F90E /* IQBTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 304627171DDAB2F40025F90E /* IQBTTableViewCell.m */; };
+		308063251DDBED5900D8C2F4 /* IQBTControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308063231DDBED5900D8C2F4 /* IQBTControlViewController.m */; };
+		308063261DDBED5900D8C2F4 /* IQBTControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 308063241DDBED5900D8C2F4 /* IQBTControlViewController.xib */; };
+		308063291DDC029900D8C2F4 /* NSData+GWDock.m in Sources */ = {isa = PBXBuildFile; fileRef = 308063281DDC029900D8C2F4 /* NSData+GWDock.m */; };
+		3080632C1DDC160100D8C2F4 /* NSData+GWConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080632B1DDC160100D8C2F4 /* NSData+GWConversion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3009752F1DBA05C400328AB1 /* IQBlueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQBlueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300975331DBA05C400328AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		300975351DBA05C400328AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		300975361DBA05C400328AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		300975381DBA05C400328AB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		300975391DBA05C400328AB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3009753C1DBA05C400328AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3009753F1DBA05C400328AB1 /* IQBlueTooth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IQBlueTooth.xcdatamodel; sourceTree = "<group>"; };
+		300975411DBA05C400328AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		300975441DBA05C400328AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		300975461DBA05C400328AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3009754E1DBA06FE00328AB1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		304627161DDAB2F40025F90E /* IQBTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBTTableViewCell.h; sourceTree = "<group>"; };
+		304627171DDAB2F40025F90E /* IQBTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBTTableViewCell.m; sourceTree = "<group>"; };
+		308063221DDBED5900D8C2F4 /* IQBTControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBTControlViewController.h; sourceTree = "<group>"; };
+		308063231DDBED5900D8C2F4 /* IQBTControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBTControlViewController.m; sourceTree = "<group>"; };
+		308063241DDBED5900D8C2F4 /* IQBTControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IQBTControlViewController.xib; sourceTree = "<group>"; };
+		308063271DDC029900D8C2F4 /* NSData+GWDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GWDock.h"; sourceTree = "<group>"; };
+		308063281DDC029900D8C2F4 /* NSData+GWDock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GWDock.m"; sourceTree = "<group>"; };
+		3080632A1DDC160100D8C2F4 /* NSData+GWConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GWConversion.h"; sourceTree = "<group>"; };
+		3080632B1DDC160100D8C2F4 /* NSData+GWConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GWConversion.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3009752C1DBA05C400328AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3009754F1DBA06FE00328AB1 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300975261DBA05C400328AB1 = {
+			isa = PBXGroup;
+			children = (
+				300975311DBA05C400328AB1 /* IQBlueTooth */,
+				300975301DBA05C400328AB1 /* Products */,
+				3009754D1DBA06FE00328AB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		300975301DBA05C400328AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3009752F1DBA05C400328AB1 /* IQBlueTooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300975311DBA05C400328AB1 /* IQBlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				3009754C1DBA05CF00328AB1 /* libs */,
+				300975321DBA05C400328AB1 /* Supporting Files */,
+			);
+			path = IQBlueTooth;
+			sourceTree = "<group>";
+		};
+		300975321DBA05C400328AB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				300975351DBA05C400328AB1 /* AppDelegate.h */,
+				300975361DBA05C400328AB1 /* AppDelegate.m */,
+				300975381DBA05C400328AB1 /* ViewController.h */,
+				300975391DBA05C400328AB1 /* ViewController.m */,
+				3009753B1DBA05C400328AB1 /* Main.storyboard */,
+				300975411DBA05C400328AB1 /* Assets.xcassets */,
+				300975431DBA05C400328AB1 /* LaunchScreen.storyboard */,
+				300975461DBA05C400328AB1 /* Info.plist */,
+				3009753E1DBA05C400328AB1 /* IQBlueTooth.xcdatamodeld */,
+				300975331DBA05C400328AB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3009754C1DBA05CF00328AB1 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				3080632A1DDC160100D8C2F4 /* NSData+GWConversion.h */,
+				3080632B1DDC160100D8C2F4 /* NSData+GWConversion.m */,
+				308063271DDC029900D8C2F4 /* NSData+GWDock.h */,
+				308063281DDC029900D8C2F4 /* NSData+GWDock.m */,
+				304627161DDAB2F40025F90E /* IQBTTableViewCell.h */,
+				304627171DDAB2F40025F90E /* IQBTTableViewCell.m */,
+				308063221DDBED5900D8C2F4 /* IQBTControlViewController.h */,
+				308063231DDBED5900D8C2F4 /* IQBTControlViewController.m */,
+				308063241DDBED5900D8C2F4 /* IQBTControlViewController.xib */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		3009754D1DBA06FE00328AB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3009754E1DBA06FE00328AB1 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3009752E1DBA05C400328AB1 /* IQBlueTooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300975491DBA05C400328AB1 /* Build configuration list for PBXNativeTarget "IQBlueTooth" */;
+			buildPhases = (
+				3009752B1DBA05C400328AB1 /* Sources */,
+				3009752C1DBA05C400328AB1 /* Frameworks */,
+				3009752D1DBA05C400328AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQBlueTooth;
+			productName = IQBlueTooth;
+			productReference = 3009752F1DBA05C400328AB1 /* IQBlueTooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300975271DBA05C400328AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Herson;
+				TargetAttributes = {
+					3009752E1DBA05C400328AB1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3B3Z5L9KTV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3009752A1DBA05C400328AB1 /* Build configuration list for PBXProject "IQBlueTooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 300975261DBA05C400328AB1;
+			productRefGroup = 300975301DBA05C400328AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3009752E1DBA05C400328AB1 /* IQBlueTooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3009752D1DBA05C400328AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300975451DBA05C400328AB1 /* LaunchScreen.storyboard in Resources */,
+				300975421DBA05C400328AB1 /* Assets.xcassets in Resources */,
+				308063261DDBED5900D8C2F4 /* IQBTControlViewController.xib in Resources */,
+				3009753D1DBA05C400328AB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3009752B1DBA05C400328AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300975401DBA05C400328AB1 /* IQBlueTooth.xcdatamodeld in Sources */,
+				304627181DDAB2F40025F90E /* IQBTTableViewCell.m in Sources */,
+				3080632C1DDC160100D8C2F4 /* NSData+GWConversion.m in Sources */,
+				308063251DDBED5900D8C2F4 /* IQBTControlViewController.m in Sources */,
+				3009753A1DBA05C400328AB1 /* ViewController.m in Sources */,
+				300975371DBA05C400328AB1 /* AppDelegate.m in Sources */,
+				308063291DDC029900D8C2F4 /* NSData+GWDock.m in Sources */,
+				300975341DBA05C400328AB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3009753B1DBA05C400328AB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3009753C1DBA05C400328AB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		300975431DBA05C400328AB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300975441DBA05C400328AB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		300975471DBA05C400328AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		300975481DBA05C400328AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3009754A1DBA05C400328AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3B3Z5L9KTV;
+				INFOPLIST_FILE = IQBlueTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HermaVista.IQBlueTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3009754B1DBA05C400328AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3B3Z5L9KTV;
+				INFOPLIST_FILE = IQBlueTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HermaVista.IQBlueTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3009752A1DBA05C400328AB1 /* Build configuration list for PBXProject "IQBlueTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300975471DBA05C400328AB1 /* Debug */,
+				300975481DBA05C400328AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300975491DBA05C400328AB1 /* Build configuration list for PBXNativeTarget "IQBlueTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3009754A1DBA05C400328AB1 /* Debug */,
+				3009754B1DBA05C400328AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3009753E1DBA05C400328AB1 /* IQBlueTooth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3009753F1DBA05C400328AB1 /* IQBlueTooth.xcdatamodel */,
+			);
+			currentVersion = 3009753F1DBA05C400328AB1 /* IQBlueTooth.xcdatamodel */;
+			path = IQBlueTooth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 300975271DBA05C400328AB1 /* Project object */;
+}

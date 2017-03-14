@@ -39,3 +39,6 @@
 }
 
 ![image] (https://raw.githubusercontent.com/HersonIQ/IQBlueTooth/master/B67421A1F87DAD1287B586135244E880.png)
+
+
+娱人愚己，自娱自乐。  i'm here https://www.zhihu.com/people/EngCCC
